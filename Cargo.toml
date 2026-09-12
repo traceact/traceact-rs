@@ -1,9 +1,9 @@
 [package]
 name = "traceact"
 version = "0.0.0"
-edition = "2021"
-rust-version = "1.70"
-description = "X-ray vision for your code. Lightweight action-level tracing. Rust port in progress; the Python package is at https://pypi.org/project/traceact."
+edition = "2024"
+rust-version = "1.85"
+description = "X-ray vision for your code. Action-level tracing."
 license = "MIT"
 repository = "https://github.com/traceact/traceact-rs"
 homepage = "https://github.com/traceact/traceact-rs"
@@ -11,5 +11,10 @@ readme = "README.md"
 authors = ["Mohammed Shehu"]
 keywords = ["tracing", "observability", "telemetry", "instrumentation"]
 categories = ["development-tools::debugging"]
+include = [
+    "src/lib.rs",
+    "README.md",
+    "LICENSE",
+]
 
 [dependencies]
